@@ -1,0 +1,185 @@
+p{
+    color:seagreen;
+}
+.boo{
+    background-color:cornflowerblue
+}
+h1{
+    color:pink
+}
+h3{
+    color:aqua
+}
+.rec-sq {
+    display:flex;
+    gap: 0em;
+    margin: 2em;
+   }
+   .square {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(255, 123, 0);
+   }
+   .rectangle {
+    width: 7rem;
+    height: 3rem;
+    background: rgb(0, 119, 128);
+   }
+   .square {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(21, 255, 0);
+   }
+   .rec-oval {
+    display:flex;
+    gap: 0em;
+    margin: 2em;
+   }
+   .square {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(255, 123, 0);
+   }
+   .oval {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px
+   }
+   .square {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(21, 255, 0);
+   }
+   .rec-inf {
+    display:flex;
+    gap: 0em;
+    margin: 2em;
+   }
+   .square {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(255, 123, 0);
+   }
+   .infinity {
+    position: relative;
+    width: 212px;
+    height: 100px;
+    box-sizing: content-box;
+  }
+  .infinity:before,
+  .infinity:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid blue;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+  }
+  .infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+  }
+   .square {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(21, 255, 0);
+   }
+   .oval {
+    display:flex;
+    gap: 0em;
+    margin: 2em;
+   }
+   .oval2 {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(255, 123, 0);
+    border-radius: 100px / 50px;
+   }
+   .oval2 {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px;
+   }
+   .oval2 {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(21, 255, 0);
+    border-radius: 100px / 50px;
+   }
+   .button {
+    font-family: 'helvetica', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 16px;
+    
+    transition-property: background-color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms;
+    
+    /*short-hand property: */
+    /*transition: background-color 800ms ease-in-out 300ms;*/
+  }
+  
+  .button:hover {
+    background-color: green;
+    cursor: pointer;
+  }
+  .parallelogram {
+    display:flex;
+    gap: 0em;
+    margin: 2em;
+   }
+   .parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: #09ff00;
+  }
+   .rectangle {
+    width: 7rem;
+    height: 3rem;
+    background: rgb(0, 119, 128);
+   }
+   .square {
+    width: 3rem;
+    height: 15rem;
+    background: rgb(21, 255, 0);
+   }
+
+   body {
+    padding: 25px;
+    background-color: rgb(255, 228, 228);
+    color: rgb(0, 78, 245);
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: rgb(6, 0, 73);
+    color: white;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
