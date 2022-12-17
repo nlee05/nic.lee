@@ -1,0 +1,55 @@
+.container{
+    width: 1200px;
+    height:800px;
+    margin: 100px;
+  }
+  
+
+    
+  div.b {
+    position: absolute;
+    top: 50px; left: 550px;
+    height: 300px;
+    width: 200px;
+    transform: rotate(90deg);
+
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(229, 17, 116);
+    mix-blend-mode:darken;
+    /* transform: rotate(90deg); */
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+  }
+  
+  
+  @keyframes aslide {
+    0% {
+      transform: translate(200px,0px);
+    }
+  
+    100% {
+      transform: translate(800px,700px);
+    }
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translate(50px,100px);
+      transform: rotate(90deg)
+    }
+  
+    100% {
+      transform: translate(-1000px,100px);
+    }
+
+  }
+  
+  
+  
+  
+ 
